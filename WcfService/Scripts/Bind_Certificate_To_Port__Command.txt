@@ -1,0 +1,4 @@
+﻿** Run the below command in command prompt in ADMIN mode. **
+
+
+netsh http add sslcert ipport=0.0.0.0:44000 certhash=E5C845EDCC7B465DA181D70301452B89263787A4 appid={441B5838-B0D4-4424-8AB4-4F880BB65E52}

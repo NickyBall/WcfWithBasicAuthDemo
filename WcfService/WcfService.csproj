@@ -102,6 +102,10 @@
     <None Include="PackageRoot\ServiceManifest.xml" />
     <None Include="App.config" />
     <None Include="packages.config" />
+    <None Include="Scripts\Create_SelfSignedCertificate.ps1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\Bind_Certificate_To_Port__Command.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
